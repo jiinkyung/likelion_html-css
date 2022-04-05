@@ -1,0 +1,124 @@
+body {
+    display: block;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menubar {
+    background-color: skyblue;
+    width: 20%;
+
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0%;
+    align-items: center;
+}
+.section {
+    width: 80%;  
+    
+}
+.myname {
+    font-size: 30px;
+
+}
+
+.icon {
+    font-size: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 14rem;
+    margin: 0% 4% 0% 0%;
+    opacity: 0.8;
+  }
+
+
+.intro{
+    margin: 50px;
+}
+.interest {
+    margin: 50px;
+}
+
+.tech_badges {
+    margin-top: 30px;
+}
+.badge_html {
+    width: 90px;
+    height: 30px;
+  }
+.badge_css {
+    width: 80px;
+    height: 30px;
+  }
+
+.badge_javascript {
+    width: 140px;
+    height: 30px;
+}
+.badge_python {
+    width: 100px;
+    height: 30px;
+}
+.badge_django {
+    width: 100px;
+    height: 30px;
+}
+.badge_android {
+    width: 160px;
+    height: 30px;
+}
+.top {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+   
+    
+}
+
+#intro_rows {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.intro_content{
+    display: flex;
+    flex-direction: column;
+}
+.bottom {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    
+}
+.education {
+    margin: 50px;
+}
+.edu_info {
+    overflow: hidden;
+}
+#title-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+   
+  }
+#year-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282828;
+    float: right;  
+      
+}
+#desc-text {
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
