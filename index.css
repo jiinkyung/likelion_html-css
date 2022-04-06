@@ -14,28 +14,44 @@ body {
 .menu {
     list-style-type: none;
     padding-left: 0%;
-    align-items: center;
+    margin-top: 350px;
+    margin-left: 80px;
+    position: fixed;
+    height: 100%;
+    font-size: 30px;
 }
-.section {
+.menu li a:hover {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    text-align: center;
+}
+li {
+    margin-bottom: 10px;
+}
+#section {
     width: 80%;  
     
 }
 .myname {
-    font-size: 30px;
+    
+    font-size: 30px;    
+    margin: 3% 3% 3% 4%;
+    position: fixed;
+    letter-spacing: 0.1em;
 
 }
-
 .icon {
     font-size: 50px;
     display: flex;
-    flex-flow: row nowrap;
-    max-width: 14rem;
+    flex-direction: row;
     margin: 0% 4% 0% 0%;
-    opacity: 0.8;
   }
 
 
-.intro{
+#intro{
     margin: 50px;
 }
 .interest {
@@ -121,4 +137,44 @@ body {
     padding-left: 15px;
     margin-top: 0px;
 }
-
+.activities {
+    margin: 50px;
+}
+.activity_info {
+    overflow: hidden;
+}
+#likelion_img {
+    width: 300px;
+    height: 200px;
+}
+#project {
+    margin: 50px;
+}
+.project_info {
+    overflow: hidden;
+}
+#project_text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#contact {
+    margin: 50px;
+}
+#contact_logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+   
+}
