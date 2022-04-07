@@ -9,42 +9,63 @@ body {
 .menubar {
     background-color: skyblue;
     width: 20%;
+    /*align-items: center;
+    overflow: visible;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;*/
 
+}
+.myname {
+    font-weight: 600;
+    font-size: 35px;    
+    margin: 3% 3% 3% 3%;
+    position: fixed;
+    letter-spacing: 0.32em;
+
+}
+
+#me {
+    width: 250px;
+    height:250px;
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 1.6%;
+
+    border-radius: 30%;
 }
 .menu {
     list-style-type: none;
     padding-left: 0%;
-    margin-top: 350px;
+    margin-top: 30%;
     margin-left: 80px;
     position: fixed;
     height: 100%;
     font-size: 30px;
 }
 .menu li a:hover {
-    background-color: black;
-    color: white;
+    /* text-decoration-line:underline; */
+    color: darkblue;
+    font-weight: bold;
+    font-size: 35px;
 }
-
+.menu li a:visited{
+   color: black;
+}
 ul {
     text-align: center;
 }
 li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #section {
     width: 80%;  
     
 }
-.myname {
-    
-    font-size: 30px;    
-    margin: 3% 3% 3% 4%;
-    position: fixed;
-    letter-spacing: 0.1em;
 
-}
 .icon {
-    font-size: 50px;
+    font-size: 55px;
     display: flex;
     flex-direction: row;
     margin: 0% 4% 0% 0%;
@@ -53,6 +74,16 @@ li {
 
 #intro{
     margin: 50px;
+}
+#intro_title{
+    margin-top: 10px;
+    font-weight: bold;
+}
+#intro_text{
+    font-size: 18px;
+    color: darkslategray;
+    margin-top: 8px;
+   
 }
 .interest {
     margin: 50px;
@@ -177,4 +208,7 @@ a {
     flex-direction: row;
     text-decoration: none;
    
+}
+.contact_info #intro_rows a:visited {
+    color: black;
 }
