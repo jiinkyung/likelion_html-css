@@ -24,6 +24,7 @@ body {
     background-color: blanchedalmond;
     width: 20%;
     font-family: 'DungGeunMo';
+    
 
 }
 .myname {
@@ -40,7 +41,7 @@ body {
     width: 250px;
     height:250px;
     position: fixed;
-    margin-top: 10%;
+    margin-top: 11%;
     margin-left: 1.4%;
     border-radius: 30%;
     border: 5px solid burlywood;
@@ -52,8 +53,8 @@ li a{
 .menu {
     list-style-type: none;
     padding-left: 0%;
-    margin-top: 30%;
-    margin-left: 80px;
+    margin-top: 32%;
+    margin-left: 90px;
     position: fixed;
     height: 100%;
     font-size: 30px;
@@ -78,6 +79,8 @@ li {
 }
 #section {
     width: 80%;  
+    position: relative;
+    padding-bottom: 80px;
     
 }
 h1{
@@ -241,4 +244,14 @@ a {
 }
 .contact_info #intro_rows a:visited {
     color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+	padding: 15px 0; 
+	text-align: center;
+	background: linen;
+
 }
