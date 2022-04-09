@@ -1,29 +1,39 @@
+
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     display: block;
     margin: 0px;
     display: flex;
     flex-direction: row;
+    font-family: 'GmarketSansMedium';    
     
 }
 
 .menubar {
-    background-color: skyblue;
+    background-color: blanchedalmond;
     width: 20%;
-    /*align-items: center;
-    overflow: visible;
-    float: left;
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;*/
+    font-family: 'DungGeunMo';
 
 }
 .myname {
     font-weight: 600;
-    font-size: 35px;    
-    margin: 3% 3% 3% 3%;
+    font-size: 40px;    
+    margin: 4% 3% 3% 2%;
     position: fixed;
     letter-spacing: 0.32em;
-
+    font-family: 'DungGeunMo';
+    
 }
 
 #me {
@@ -31,9 +41,13 @@ body {
     height:250px;
     position: fixed;
     margin-top: 10%;
-    margin-left: 1.6%;
-
+    margin-left: 1.4%;
     border-radius: 30%;
+    border: 5px solid burlywood;
+}
+li a{
+    display: block;
+    text-align: center;
 }
 .menu {
     list-style-type: none;
@@ -43,14 +57,17 @@ body {
     position: fixed;
     height: 100%;
     font-size: 30px;
+   
 }
-.menu li a:hover {
-    /* text-decoration-line:underline; */
-    color: darkblue;
+.menubar a:hover {
+  text-decoration: none;
+}
+.menu a:hover {
+    
     font-weight: bold;
-    font-size: 35px;
+    background-color: burlywood;
 }
-.menu li a:visited{
+.menubar a:visited{
    color: black;
 }
 ul {
@@ -63,7 +80,10 @@ li {
     width: 80%;  
     
 }
-
+h1{
+    text-shadow: 2px 2px 0px #bdbdbd;
+    font-family: 'DungGeunMo';
+}
 .icon {
     font-size: 55px;
     display: flex;
@@ -81,7 +101,7 @@ li {
 }
 #intro_text{
     font-size: 18px;
-    color: darkslategray;
+    color: gray;
     margin-top: 8px;
    
 }
@@ -188,6 +208,7 @@ li {
     text-align: center;
     font-weight: bold;
     font-size: 50px;
+    font-family: 'DungGeunMo';
 }
 #contact {
     margin: 50px;
@@ -202,6 +223,15 @@ li {
     flex-direction: row;
     margin-top: 30px;
     margin-left: 50px;
+}
+.contact_title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact_text {
+    color: gray;
+    font-weight: 18px;
+    margin-top: 4px;
 }
 a {
     display: flex;
